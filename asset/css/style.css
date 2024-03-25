@@ -1,0 +1,148 @@
+* {
+    font-family: cursive;
+}
+
+.navbar {
+    background-color: rgb(38, 129, 129);
+    padding: 15px;
+    font-size: 17px;
+}
+
+a {
+    color: rgb(241, 230, 230);
+
+}
+
+.navbar a {
+    margin-left: 10px;
+}
+
+body {
+    margin: 0;
+}
+
+.float-right {
+    float: right;
+}
+
+.btn {
+    padding: 3px 10px 5px 10px;
+    border-radius: 5%;
+}
+
+.btn-primary {
+    background-color: blue;
+}
+
+.btn-warning {
+    background-color: yellow;
+    color: black;
+}
+
+body {
+    margin: 0;
+
+}
+
+.mt-1px {
+    margin-top: 1px;
+}
+
+.row {
+    display: flex;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.col-2 {
+    width: 50%;
+}
+
+.col-3 {
+    width: 33.33%;
+}
+
+.col-4 {
+    width: 25%;
+}
+.col-5 {
+    width: 20%;
+}
+
+.mt-10px {
+    margin-top: 10px;
+}
+.card{
+    border: 1px solid rgb(210, 198, 198);
+    padding: 10px;
+    margin: 10px;
+}
+.text-center{
+    text-align: center;
+}
+.card img{
+    height: 100px;
+    width: 100px;
+    align-items: center;
+    margin: auto;
+}
+.card{
+    text-align: center;
+}
+.card a{
+    color: cadetblue;
+}
+.card p{
+    color: grey;
+    text-align: justify;
+}
+
+.text-primary
+{
+    color: rgb(22, 22, 221);
+}
+.text-justify{
+    text-align: justify;
+}
+
+.footer
+{
+    background-color: aqua;
+    padding: 5px;
+}
+.p-4{
+    padding: 25px;
+}
+.p-5{
+    padding: 30px;
+    background-color: rgb(222, 245, 179);
+}
+.p-1{
+    padding: 5px;
+}
+
+.border
+{
+    border: 2px solid grey;
+    margin: 5px;
+    background-color: aliceblue;
+
+}
+input, select{
+    width: 250px;
+    height: 25px;
+}
+.m-3{
+    margin: 20px;
+}
+.login{
+    text-align: center;
+}
+.login a{
+    color: blueviolet;
+}
+.login{
+    border: 2px sloid grey;
+    margin: 5px;
+    background-color: aliceblue;
+}
