@@ -1,0 +1,123 @@
+.welcome{
+    background-color: rgb(150, 234, 234);
+    height: 40px;
+    margin: 10px;
+    
+}
+
+.department
+{
+    background-color: rgb(223, 222, 220);
+    height: 60px;
+    margin: 10px;
+}
+
+.footer {
+    background-color: rgb(170, 211, 211);
+    padding: 5px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.karan{
+    background-color: rgb(243, 196, 205);
+    margin: 10px;
+    padding: 0.5px;
+}
+
+.border
+{
+    background-color: aliceblue;
+    margin: 15px
+}
+.navbar
+{
+    margin: 10px;
+}
+
+.mt-1px {
+    margin-top: 1px;
+}
+
+.row {
+    display: flex;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.col-2 {
+    width: 50%;
+}
+
+.col-3 {
+    width: 33.33%;
+}
+
+.col-4 {
+    width: 25%;
+}
+
+.col-5 {
+    width: 20%;
+}
+
+.mt-10px {
+    margin-top: 10px;
+}
+
+.card {
+    border: 1px solid rgb(182, 141, 141);
+    padding: 10px;
+    margin: 50px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.card img {
+    height: 100px;
+    width: 100px;
+    align-items: center;
+    margin: auto;
+}
+
+.card {
+    text-align: center;
+}
+
+.card a {
+    color: rgb(109, 174, 177);
+}
+
+.card p {
+    color: rgb(153, 88, 88);
+    text-align: justify;
+}
+
+
+
+.text-justify {
+    text-align: justify;
+}
+
+
+.float-left
+{
+    float: left;
+}
+
+
+.float-right
+{
+    float: right;
+}
+
+.karan-1{
+    padding: 10px;
+    margin: 10px;
+    background-color: antiquewhite;
+    height: 35px;
+}

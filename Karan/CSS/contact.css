@@ -1,0 +1,20 @@
+.float-right{
+    float: right;
+}
+
+.float-left{
+    float: left;
+}
+
+.border
+{
+    margin: 30px;
+    padding: 20px;
+   
+   
+}
+
+.color
+{
+    background-color: rgb(252, 247, 239);
+}
