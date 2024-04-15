@@ -19,3 +19,16 @@
 .cse{
     background-color: rgb(246, 238, 249);
 }
+
+.appsc{
+    background-color: rgb(235, 238, 235) ;
+}
+.about{
+    background-color: rgb(230, 233, 240);
+}
+.app{
+    background-color: rgb(216, 249, 170);
+    margin: 10px;
+    padding: 0.1px;
+    
+}
