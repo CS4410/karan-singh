@@ -126,6 +126,12 @@
 .slider
 {
     margin: 10px;
+    background-color: rgb(242, 226, 250);
 
     
+}
+.border{
+    margin: 20px;
+    padding: 30px;
+    background-color: rgb(246, 250, 217);
 }
