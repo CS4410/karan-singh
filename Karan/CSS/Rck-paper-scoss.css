@@ -71,3 +71,14 @@ img{
     padding: 1rem;
     border-radius: 1rem;
 }
+h5{
+    background-color: rgb(242, 223, 56);
+    padding: 8px;
+    margin: 2px;
+}
+
+h2{
+    background-color: aqua;
+    margin: 2px;
+    padding: 10px;
+}

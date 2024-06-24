@@ -1,0 +1,124 @@
+.top{
+
+    color: rgb(138, 18, 18);
+    background-color: rgb(230, 237, 100);
+    margin: 6px;
+}
+
+
+.header{
+
+    text-align: center;
+    background-color: rgb(1, 1, 57);
+    color: white;
+    padding: 1px;
+    margin: 6px;
+    
+
+    display: flex;
+    
+    align-items: center;
+    padding: 10px;
+
+}
+
+.header img {
+    height: 80px;
+
+}
+
+.header h2 {
+    margin: 0;
+    flex-grow: 1;
+
+}
+
+.logo-left {
+    margin-right: auto;
+}
+.logo-right {
+    margin-left: auto;
+}
+h5{
+    color: rgb(201, 28, 28);
+}
+
+   
+
+
+
+h3{
+    text-align: center;
+}
+.institute{
+
+    border: solid 00.5px;
+    margin: 60px;
+    padding: 8px;
+    background-color: rgb(172, 253, 151);
+    border-radius: 60px;
+    
+    
+
+}
+
+
+.student{
+
+    border: solid 00.5px;
+    margin: 60px;
+    padding: 8px;
+    background-color: rgb(253, 158, 90);
+    border-radius: 60px;
+    
+    
+
+}
+
+.report{
+
+    border: solid 00.5px;
+    margin: 60px;
+    padding: 3px;
+    border-radius: 60px;
+    
+    
+
+}
+h2{
+    text-align: center;
+}
+
+footer{
+
+    text-align: center;
+    color: white;
+    background-color: rgb(65, 4, 123);
+    padding: 1px;
+    margin: 6px;
+}
+
+.report{
+
+    background-color: rgb(162, 247, 247);
+}
+
+body{
+    margin: auto;
+    padding: 0px;
+
+    background-color: rgb(248, 243, 238);
+   
+}
+
+.details{
+
+    border: solid 00.5px;
+    margin: 60px;
+    padding: 8px;
+    background-color: rgb(235, 183, 168);
+    border-radius: 60px;
+    
+    
+
+}
