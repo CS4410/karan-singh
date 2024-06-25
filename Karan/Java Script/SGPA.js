@@ -528,6 +528,8 @@ const departments = {
             ["Elective-II ", 4],
             ["Digital communication system Lab", 1],
             ["Microwave and Radar Engineering Lab", 1],
+            ["Elective-I Lab ", 1],
+            ["Open Elective ", 3],
             ["Minor Project", 1],
             ["Mentoring and Professional Development", 1]
           
@@ -629,7 +631,7 @@ const departments = {
             ["Open Elective-I", 3],
             ["Power Systems Lab", 1],
             ["PLC and Automation Lab", 1],
-            ["Industrial Drives Laboratory",1]
+            ["Industrial Drives Laboratory",1],
             ["Minor Project", 1],
             ["Mentoring and Professional Development", 1]
           
