@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SGPA Calculator</title>
+    <link rel="stylesheet" href="../CSS/SGPA.css">
+</head>
+
+<body>
+
+
+
+
+    <div class="container">
+        <hr>
+        <hr>
+        <h2>
+            <marquee behavior="alternate" direction="">Jai hoo satnaryan.</marquee>
+        </h2>
+        <hr>
+        <hr>
+
+        <h1>SGPA Calculator</h1>
+        <h6>
+            <marquee behavior="" direction="">Note: Students must read the guidelines given below before calculating
+                their CGPA. At this time students can generate thier SGPA till semester 6th , within some days facility for 7th and 8th semester will be open. Thank you.</marquee>
+        </h6><br>
+        <form id="sgpaForm">
+            <label for="department">Department:</label>
+            <select id="department" name="department">
+                <option value="">Choose your Department</option>
+                <option value="CSE">Computer Science Engineering</option>
+                <option value="IT">Information Technology</option>
+                <option value="ME">Mechanical Engineering</option>
+                <option value="CE">Civil Engineering</option>
+                <option value="ECE">Electronics and Communication Engineering</option>
+                <option value="EE">Electrical Engineering</option>
+
+                <!-- Add more departments as needed -->
+            </select>
+
+            <label for="semester">Semester:</label>
+            <select id="semester" name="semester">
+                <option value="">Choose your Semester</option>
+                <option value="1">Semester 1(Physics Group)</option>
+                <option value="11">Semester 1(Chemistry Group)</option>
+                <option value="2">Semester 2(Physics Group)</option>
+                <option value="22">Semester 2(Chemistry Group)</option>
+                <option value="3">Semester 3</option>
+                <option value="4">Semester 4</option>
+                <option value="5">Semester 5</option>
+                <option value="6">Semester 6</option>
+                <!-- <option value="7">Semester 7(Non-Training)</option>
+                <option value="8">Semester 8(Training)</option> -->
+
+            </select>
+
+            <a href="../cse document/WELCOME TO SGPA CALCULATOR.pdf">Guidelines for Students</a>  <br><br>
+            <div id="subjects">
+                <!-- Subjects will be dynamically generated here -->
+            </div>
+
+            <button type="button" onclick="calculateSGPA()">Calculate SGPA</button>
+            <button type="button" onclick="generateReport()">Generate Report</button>
+
+            <button id="qualificationBtn" onclick="showQualification()" style="display: none;">Result Qualified</button>
+            <button id="reappearBtn" onclick="showReappear()" style="display: none;">Result Reappear</button>
+            <button onclick="">HOME</button>
+
+
+
+        </form>
+        <div id="result"></div>
+        <div id="report"></div>
+
+        <br><br>
+        <hr><hr>
+        <h5>Designed and Developed by: <a href="https://cs4410.github.io/karan-singh/Karan/HTML/Contact%20us.html">Mr.
+                Karan Singh @</a> 2024</h5>
+    </div>
+    <script src="../Java Script/SGPA.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,103 @@
+
+body{
+    font-family: Arial, sans-serif;
+    background-color: #e3f3e3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 0;
+    
+}
+
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 800px;
+}
+
+h1 {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 15px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 10px;
+}
+
+select, input {
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+
+#report {
+    margin-top: 20px;
+    font-size: 18px;
+    text-align: left;
+}
+
+.subject {
+    margin-bottom: 15px;
+}
+
+.subject span {
+    display: inline-block;
+    width: 50%;
+    vertical-align: top;
+}
+
+.subject input {
+    width: calc(25% - 10px);
+    margin-right: 5px;
+    margin-left: 5px;
+}
+h5{
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(236, 176, 13);
+}
+h2{
+    background-color: rgb(22, 199, 187);
+    padding: 20px;
+    color: rgb(226, 20, 55);
+}
+
+h6{
+    background-color: rgb(242, 75, 15);
+    color: rgb(255, 254, 254);
+    padding: 3px;
+}
